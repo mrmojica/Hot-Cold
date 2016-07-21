@@ -10,9 +10,7 @@
     <link rel="stylesheet" href="styles/style.css"/> 
   </head>
   <body>
-    
     <header> <!--Header -->
-
       <!-- Top Navigation -->
       <nav> 
         <ul class="clearfix">
@@ -20,7 +18,6 @@
           <li><a class="new" href="#">+ New Game</a></li>
         </ul>
       </nav>
-      
       <!-- Modal Information Box -->
       <div class="overlay" id="modal">
         <div class="content">
@@ -37,25 +34,18 @@
           </div>
         </div>
       </div>
-
       <!-- logo text -->
       <h1>HOT or COLD</h1>
-
     </header>
-
     <section class="game"> <!-- Guessing Section -->
-      
       <h2 id="feedback">Make your Guess!</h2>
-
       <form>
         <input type="text" name="userGuess" id="userGuess" class="text" maxlength="3" autocomplete="off" placeholder="Enter your Guess" required/>
             <input type="submit" id="guessButton" class="button" name="submit" value="Guess"/>
       </form>
-      
           <p>Guess #<span id="count">0</span>!</p>
       
       <ul id="guessList" class="guessBox clearfix">
-
       </ul>
 
     </section>

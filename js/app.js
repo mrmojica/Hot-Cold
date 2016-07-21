@@ -12,7 +12,6 @@ $(document).ready(function() {
     });
 
     /* Initializing Variables */
-
     var userGuess,
         secretNumber,
         gapNumber,
